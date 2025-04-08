@@ -19,8 +19,13 @@ while True:
     request = client_connection.recv(1024).decode()
     print(request)
 
+    # get the content of page/index.html
+    fin = open('page/index.html')
+    content = fin.read()
+    fin.close()
+
     # send a HTTP response
-    response = 'HTTP/1.0 200 OK\n\nHello World'
+    response = 'HTTP/1.0 200 OK\n\n' + content
     client_connection.sendall(response.encode())
     client_connection.close()
 
