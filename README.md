@@ -1,5 +1,11 @@
-# python-http-server
+# Python HTTP Server
 
-A simple `HTTP 1.0` server made in Python.
+A simple `HTTP 1.0` server made in Python with no third-party libraries.
 
-Credit to [João Ventura](https://joaoventura.net/blog/2017/python-webserver/)'s blog post, it features a great, in-depth explanation about the functionality of HTTP servers.
+## References
+
+* João Ventura -> [Building a basic HTTP Server](https://joaoventura.net/blog/2017/python-webserver/)
+
+* HPBN -> [Brief History of HTTP](https://hpbn.co/brief-history-of-http/)
+
+* Python Docs -> [socket](https://docs.python.org/3/library/socket.html)
